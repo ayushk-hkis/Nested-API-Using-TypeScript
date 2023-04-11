@@ -6,7 +6,7 @@ const router = Router();
 
 router.get("/", getList);
 router.post("/:id?", validation, addList);
-router.patch("/:id", updateList);
+router.put("/:id", updateList);
 router.delete("/:id", deleteList);
 
 export default router;
